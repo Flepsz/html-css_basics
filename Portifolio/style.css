@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,400;1,200&family=Rubik:ital,wght@0,400;1,300&family=Shantell+Sans:wght@300&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+html {
+    width:100%;
+    height:100%;
+}
+
+body {
+    width:100%;
+    height:100%;
+}
+
+header {
+    background-image: linear-gradient(#4d00a5,#191225);
+    width:100%;
+    height:10em;
+    overflow: hidden;
+    border-bottom:0.5em solid #001d3d;
+}
+
+header img {
+    width:120px;
+    min-width:7.5em;
+    margin-top:1.4em;
+    margin-left:1em;
+    height:120px;
+    box-shadow: 2px 2px 3px #000;
+    border-radius:50%;
+    float:left;
+}
+
+header h1 {
+    color:#fff;
+    text-align: center;
+    text-shadow: 2px 2px 3px #000;
+    float:left;
+    width:80%;
+    margin-top:2em;
+    margin-left:1em;
+    /*border:1px solid #000;*/
+}
+
+nav {
+    width:100%;
+    height:auto;
+    background-color: #110124;
+    padding:0.5em;
+}
+
+nav ul {
+    list-style:none;
+    text-align: right;
+    margin-bottom: 0.2em;
+}
+
+nav ul li{
+    display: inline;
+    text-align: center;
+    margin: 0.5em;
+    font-family: 'Labrada', serif;
+    color:#fff;
+    font-weight: bold;
+}
+
+nav ul li a {
+    font-size: 0.5em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    width:50%;
+    height:auto;
+    border:1px solid #841cc9;
+    border-radius:35px;
+    overflow:hidden;
+    padding:10px;
+    text-align: justify;
+    margin-top:1em;
+}
+
+article section {
+    border-bottom: 1px solid #841cc9;
+    margin-bottom: 2em;
+}
+
+#hardskills {
+    width: 171%; 
+}
+
+#langs {
+    width: 80%; 
+    height: 80%;
+}
+
+#status {
+    border-top:none;
+}
+
+#professional div {
+    margin-top: 1em;
+}
+
+#professional ul{
+    list-style-image: url("./images/medal.png");
+    margin-top:0.5em;
+    margin-left:42.5%;
+    margin-bottom:0.5em;
+}
+
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+input[type=email], #message {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #59069c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #3a0466;
+  }
+
+article section ul {
+    list-style:none;
+}
+
+footer {
+    text-align: center;
+}
+
+@media screen and (max-width:585px){
+    body {
+        width:585px;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width: 900px) {
+    header h1 {
+        width:60%;
+    }
+    
+}
+
+@media screen and (max-width:499px){
+    header h1 {
+        width:85%;
+    }
+    header img {
+        display: none;
+    }
+    
+}

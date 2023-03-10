@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Luis Felipe Pereira">
+    <meta name="description" content="This page is a exercise of the Website Development Class">
+    <meta name="keywords" content="HTML,CSS,JS,WEB,Website">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>My Profile</title>
+</head>
+<body>
+    <header>
+        <img src="./images/profile.png" alt="profile">
+        <h1>My professional profile</h1>
+    </header>
+    <nav>
+        <ul>
+            <a href="#status"><li>Status</li></a>
+            <a href="#professional"><li>Professional Experience</li></a>
+            <a href="#hardskills"><li>Hard skills</li></a>
+            <a href="#social"><li>Social Projects</li></a>
+            <a href="#about"><li>About me</li></a>
+            <a href="#contact"><li>Contact</li></a>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <section id="status">
+                <h2>Status: Hired</h2>
+            </section>
+            <section id="professional">
+                <h1>Professional Experience</h1>
+                <div>
+                    <h3>Bosch</h3>
+                    <p>Current Job - Since January, 2023.<br>
+                    Programming Student in System Development Technical Course.<br>
+                    Tecnologies used in my work:</p>
+                    <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Tormep</h3>
+                    <p>January, 2022 - December, 2022.<br>
+                    Eletric in eletroeletronic apprentice:</p>
+                <ul>
+                    <li>Building installations</li>
+                    <li>Eletroeletronic</li>
+                    <li>Electric machines</li>
+                </ul>
+                </div>
+            </section>
+            <section id="hardskills">
+                <h1>Languages and tools</h1>
+            </br>
+                <div class="langs">
+                    <img src="https://skillicons.dev/icons?i=py,java,html,css,github,ai,ps,xd" width="40%" height="40%"/>
+                </div>  
+            </section>
+            <section id="about">
+                <h1>About me</h1>
+            </br>
+                <p>Technical Apprentice in Digital Solutions at Bosch. I study Systems Analysis and Development at SENAI.</p>
+                <p>I'm looking for new learning opportunities and professional experience. I love this area of ​​technology, I want to continue in it.</p>
+                <p>I intend to become a great professional in Software Development.
+                </p>
+            </section>
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>Copyright © 2023 My professional profile. All rights reserved.</p>
+    </footer>
+</body>
+</html>

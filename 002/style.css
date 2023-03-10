@@ -1,0 +1,90 @@
+header{
+    background: #000000;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    padding: 0 10px;
+    z-index: 11;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: dashed;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px #000000;
+    font-style: italic;
+    padding: 1rem;
+    margin: 0;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    width: 55rem;
+    margin-left: 23rem;
+    margin-top: 5rem;
+}
+
+p{
+    font-family: 'Roboto', Arial;
+    font-size: 1.05rem;
+    flex-flow: column;
+    text-align: justify;
+    min-height: 70px;
+    line-height: 26px;
+    color: #2B2B2B;
+    width: 55rem;
+    margin-left: 23rem;
+}
+
+#vini {
+    width: 55rem;
+    border-radius: 6px 6px 0px 0px;
+    margin-left: 23rem;
+}
+
+#bola {
+    width: 3rem;
+}
+
+#bola2 {
+    align-items: left;
+    width: 10rem;
+}
+
+span {
+    font-weight: bold;
+}
+
+table {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th {
+    font-size: 1.4rem;
+}
+
+footer {
+    height: 15rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    background-color: #2B2B2B;
+}

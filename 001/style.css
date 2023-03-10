@@ -1,0 +1,35 @@
+body {
+    margin: 0%
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    color: #DBD939;
+    background: #833ADB;
+    padding: 1em;
+    text-shadow: 2px 2px 4px #AD942D;
+    margin: 0%;
+}
+
+.main_img {
+    width: 50%;
+    min-width: 32em;
+    height: auto;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 15em;
+    height: auto;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 3px #000;
+}
+
+#left, #middle, #right {
+    width: 25em;
+    height: auto;
+    float: inline-start;
+}
